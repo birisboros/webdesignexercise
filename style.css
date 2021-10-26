@@ -92,7 +92,7 @@ body{
       height: 200px;
   }
 .sub{
-  margin-left:40px;
+  width: 200px;
 }
 .msg{
   background-color: #e5e7eb;
