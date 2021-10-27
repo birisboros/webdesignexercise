@@ -1,11 +1,12 @@
 body{
     margin:0px;
-    width:100%;
+    width:auto;
   font-family:Arial, Helvetica, sans-serif;
   }
   .header { 
       background-color: red;
       height: 5em;
+      width:100vw;
       display:flex;
       justify-content:space-between;
       align-items:center;
@@ -28,7 +29,8 @@ body{
   justify-content:center;
   align-items:center;
   background-color: #1F2937;
-  height: 30em;
+  height: 40em;
+  width:100vw;
 }
 .esq{
   width:400px;
@@ -62,17 +64,16 @@ body{
 }
 
 .meio {
-    margin: 0px 100px 0px 100px;
+    margin: 0px 10vw 0px 10vw;
     background-color: white;  
-    height: 30em;
-    width:auto;
+    height: 40em;
+    width:100;
     display:grid;
     justify-items: center;
     grid-template-columns:1fr 1fr 1fr 1fr;
     grid-template-areas:
       "titu titu titu titu"
-      "a b c d";
-    
+      "a b c d"; 
   }
 .titulo{
   grid-area:titu;
@@ -82,22 +83,23 @@ body{
   }
 
 .card{
-      
-      margin: -10px 0px -60px 0px;    
+          
       border-radius:10%;
       border-style: solid;
       border-width: 5px;  
       border-color: #3882f6;
-      width: 200px;
-      height: 200px;
+      width: 10em;
+      height: 10em;
+ 
   }
 .sub{
-  width: 200px;
+  width: 20vw;
   text-align: center;
-}
+  }
 .msg{
   background-color: #e5e7eb;
-  height: 30em; 
+  height: 40em;
+  width:100vw;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -118,7 +120,8 @@ body{
   
 .call{
     background-color: white; 
-    height: 20em;
+    height: 25em;
+    width:100;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -146,6 +149,7 @@ body{
 .footer {
       background-color: #1F2937;
       height: 5em;
+      width:100vw;
       color:#e5e7eb;
       font-size:15px;
       font-weight:200;
