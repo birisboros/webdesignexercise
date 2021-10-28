@@ -4,7 +4,7 @@ body{
   font-family:Arial, Helvetica, sans-serif;
   }
   .header { 
-      background-color: red;
+      background-color: #992620;
       height: 5em;
       width:100vw;
       display:flex;
@@ -16,25 +16,31 @@ body{
     font-size:24px;
     margin-left: 10em;
     margin-right: 5em;
-    
+    font-weight:bold;
   }
 .links{
-    color:#e5e7eb;
-    font-size:18px;
+    
+    
     margin-right:10em;
     margin-left: 5em;
   }
+a{
+  color:#e5e7eb;
+  font-size:18px;
+  text-decoration: none;
+  margin-right:1em;
+}
 .topo{
   display:flex;
   justify-content:center;
   align-items:center;
   background-color: #1F2937;
-  height: 40em;
+  height: 35em;
   width:100vw;
 }
 .esq{
-  width:400px;
-  height:200px;
+  width:30em;
+  height:15em;
 }
 .hero{
     color:#f9faf8;
@@ -50,13 +56,16 @@ body{
 .herobut{
   color:white;
   background-color: #3882f6;
-  border-radius:10%;
+  border-radius:10px;
   border-style:none;
   margin:10px 10px 0px 0px;
+  padding: 10px 30px;
+  font-weight:bold;
+  font-size:1.2em;
 }
 .dir{
-  width:400px;
-  height:200px;
+  width:30em;
+  height:15em;
   background-color:grey;
   display:flex;
   justify-content:center;
@@ -66,7 +75,7 @@ body{
 .meio {
     margin: 0px 10vw 0px 10vw;
     background-color: white;  
-    height: 40em;
+    height: 35em;
     width:100;
     display:grid;
     justify-items: center;
@@ -95,10 +104,11 @@ body{
 .sub{
   width: 20vw;
   text-align: center;
+  margin-top:-5em;
   }
 .msg{
   background-color: #e5e7eb;
-  height: 40em;
+  height: 35em;
   width:100vw;
   display:flex;
   justify-content:center;
@@ -106,15 +116,18 @@ body{
   flex-direction:column;
 }
 .texto{
-  width:500px;
-  font-size:20px;
+  width:60%;
+  font-size:36px;
   color:gray;
-  font-weight:bold;
+  font-weight:200;
+  font-style:italic;
   text-align: justify;
  }
 .autor{
-  font-weight:900;
-  padding-left:20em;
+  color:#2b2e2c;
+  font-size:1.5em;
+  font-weight:600;
+  padding-left:29em;
   padding-top:1em;
 }
   
@@ -127,24 +140,35 @@ body{
     align-items:center;
  }
 .quadro{
-  width:600px;
-  height:150px;
+  width:70em;
+  height:10em;
   border-radius:10px;
   background-color: #3882f6;
   display:flex;
-  justify-content:center;
+  justify-content:space-between;
   align-items:center;
   
   
 }
-.texesq{
-  font-size:20px;
+.titesq{
+  font-size:25px;
   color:#e5e7e8;
-  margin:20px;
+  margin:10px 6em;
+}
+.texesq{
+  width:40em;
+  font-size:15px;
+  color:#e5e7e8;
+  margin:10px 10em;
 }
 .botao{
-  margin-right:20px;
-  border-radius:5px;
+  width:7em;
+  height:3em;
+  margin-right:10em;
+  border-radius:10px;
+  background-color: #3882f6;
+  color:white;
+  border-color:white;
 }
 .footer {
       background-color: #1F2937;
